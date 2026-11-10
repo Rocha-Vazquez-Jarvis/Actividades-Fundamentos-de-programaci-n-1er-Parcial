@@ -1,0 +1,111 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMq//0nD375uv+tymL2Y5Ds",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Rocha-Vazquez-Jarvis/Actividades-Fundamentos-de-programaci-n-1er-Parcial/blob/main/Rocha_Vazquez_Jarvis_Ejercicio02_FP_\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Programa para calcular el precio final de un producto con descuento."
+      ],
+      "metadata": {
+        "id": "SCYOHc0W7k04"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "hxlSogQF4Htc",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "950344d6-fa53-4d1a-dd9d-9b64292fa29b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa el costo normal del producto 542\n",
+            "Ingresa el descuento que tiene 34\n",
+            "el total del producto es  357.72\n"
+          ]
+        }
+      ],
+      "source": [
+        "Precio= float(input(\"Ingresa el costo normal del producto \"))\n",
+        "Descuento= float(input(\"Ingresa el descuento que tiene \"))\n",
+        "\n",
+        "#Calcula el descuento\n",
+        "descuento= Precio * (Descuento/100 )\n",
+        "#Calcula el costo total del producto\n",
+        "Total = Precio - descuento\n",
+        "#Resultado posible\n",
+        "print(\"el total del producto es $\", Total)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Programa que calcula la conversion de radianes a grados."
+      ],
+      "metadata": {
+        "id": "CB9hYIwXEea-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Radianes= float(input(\"Ingresa los radianes \"))\n",
+        "\n",
+        "#calcula la conversion de radianes a grados\n",
+        "Grados = Radianes * 180 / 3.1416\n",
+        "\n",
+        "#Resultado posible\n",
+        "print(\" Conversio a grados = \" , Grados)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jRQJRyUSE1mq",
+        "outputId": "deb9996a-a137-4fe5-b6d6-07e4f8e03dbf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa los radianes 1\n",
+            " Conversio a grados =  57.29564553093965\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
